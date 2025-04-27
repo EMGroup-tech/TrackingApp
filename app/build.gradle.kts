@@ -23,10 +23,10 @@ plugins {
 
 android {
     compileSdk = libs.versions.compileSdk.get().toInt()
-    namespace = "com.example.jetlagged"
+    namespace = "com.example.tracking"
 
     defaultConfig {
-        applicationId = "com.example.jetlagged"
+        applicationId = "com.example.tracking"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1
